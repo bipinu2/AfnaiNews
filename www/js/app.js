@@ -1,12 +1,12 @@
 app.constant("Config", {
-  "WebUrl": "http://domain.com/api/",
-  "AppName" : "News Reader",
-  "AndroidAppUrl" : "https://play.google.com/store/apps/details?id=com.myspecialgames.advanced2048game",
-  "ErrorMessage" : "End of results"
+  "WebUrl": "http://app.afnainews.com/api/",
+  "AppName" : "AfnaiNews",
+  "AndroidAppUrl" : "https://play.google.com/store/apps/details?id=com.afnainews",
+  "ErrorMessage" : "sorry no news found"
 })
 // config contact
 app.constant("ConfigContact", {
-  "EmailId": "weblogtemplatesnet@gmail.com",
+  "EmailId": "admin@afnainews.com",
   "ContactSubject": "Contact"
 })
 // config admon
@@ -16,7 +16,7 @@ app.constant("ConfigAdmob", {
 })
 // color variations
 app.constant("Color", {
-  "AppColor": "assertive", //light, stable, positive, calm, balanced, energized, assertive, royal, dark
+  "AppColor": "dark", //light, stable, positive, calm, balanced, energized, assertive, royal, dark
 })
 // push notification
 app.constant("PushNoti", {
