@@ -39,12 +39,12 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		6F5B3BC60D3D4475A6D1AEDB /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C8858CAA112043688F1F8455 /* IonicKeyboard.m */; };
-		DA245DAB1CCF449189B926CE /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A3080DBBEB8247EAA19662CB /* UIWebViewExtension.m */; };
-		9F3E7C21695449538EA99329 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00194FCD6911488CB219B5F8 /* CDVLogger.m */; };
-		5B7819BC40D94657A9563CE4 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CE0D880F584D02A5798C05 /* CDVDevice.m */; };
-		C23384B9548A431DBB8129BA /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAA3FAFD1946BCB95D6F7E /* CDVSplashScreen.m */; };
-		516AD3FA991740DC82F0DE05 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886FEE0937F4B49A9844C3B /* CDVViewController+SplashScreen.m */; };
+		C5B03947E58742A79309C908 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 83319A2DB1F346D4A53AD081 /* CDVDevice.m */; };
+		D2062FEBE0DF4DFDB593BE01 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8D7EB2C36436F9F73490F /* CDVInAppBrowser.m */; };
+		C6BC8D791C2D403E9CB499C6 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB6C0C460A6477BA7B89DDD /* CDVGlobalization.m */; };
+		481623BCFCB2469FB3F2EA55 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CC4BFF0EC40F1929A0CB7 /* CDVNotification.m */; };
+		DC7DE99D223F4B999DBF1275 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D13E1B8F9B84051B312CCD9 /* CDVNotification.bundle */; };
+		EA035DE9F35543089B5E0717 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D066EC61763F47309AB7BCB2 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,7 @@
 /* Begin PBXFileReference section */
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* AfnaiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AfnaiNews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Afnainews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Afnainews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,7 +92,7 @@
 		30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
 		30C1856519D5FC0A00212699 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* AfnaiNews-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AfnaiNews-Prefix.pch"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Afnainews-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Afnainews-Prefix.pch"; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
@@ -104,24 +104,22 @@
 		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* AfnaiNews-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AfnaiNews-Info.plist"; path = "../AfnaiNews-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Afnainews-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Afnainews-Info.plist"; path = "../Afnainews-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "AfnaiNews/config.xml"; sourceTree = "<group>"; };
-		C8858CAA112043688F1F8455 /* IonicKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "IonicKeyboard.m"; path = "com.ionic.keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		A3080DBBEB8247EAA19662CB /* UIWebViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIWebViewExtension.m"; path = "com.ionic.keyboard/UIWebViewExtension.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		1447A0EBD2554641895E80CF /* IonicKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IonicKeyboard.h"; path = "com.ionic.keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		BF115D1BC58D4197A05D47E8 /* UIWebViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIWebViewExtension.h"; path = "com.ionic.keyboard/UIWebViewExtension.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		00194FCD6911488CB219B5F8 /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		F7762949C5C5416EAF7E71CE /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		F9CE0D880F584D02A5798C05 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		99D15F7ED5984F30A9ADEF29 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		5DEAA3FAFD1946BCB95D6F7E /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		7886FEE0937F4B49A9844C3B /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		C4608E7B77BA4F388570B27A /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		7EF9553D5D1F4520BCC33F5E /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Afnainews/config.xml"; sourceTree = "<group>"; };
+		83319A2DB1F346D4A53AD081 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		EB6DBE6F69B948C0A06D0769 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7FD8D7EB2C36436F9F73490F /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C10730DF8BFE438B9BCF11A5 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1BB6C0C460A6477BA7B89DDD /* CDVGlobalization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVGlobalization.m"; path = "cordova-plugin-globalization/CDVGlobalization.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C27AD6962D6D4F76BEDAD2E3 /* CDVGlobalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVGlobalization.h"; path = "cordova-plugin-globalization/CDVGlobalization.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BD5CC4BFF0EC40F1929A0CB7 /* CDVNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVNotification.m"; path = "cordova-plugin-dialogs/CDVNotification.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3044F9F8F463421489FDBEFD /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "cordova-plugin-dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8D13E1B8F9B84051B312CCD9 /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "Resources\CDVNotification.bundle"; sourceTree = "<group>"; };
+		D066EC61763F47309AB7BCB2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +131,7 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				EA035DE9F35543089B5E0717 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,13 +148,13 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = "AfnaiNews/Classes";
+			path = "Afnainews/Classes";
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* AfnaiNews.app */,
+				1D6058910D05DD3D006BFB54 /* Afnainews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,11 +180,11 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* AfnaiNews-Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* Afnainews-Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = "AfnaiNews";
+			path = "Afnainews";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -193,10 +192,11 @@
 			children = (
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
-				8D1107310486CEB800E47090 /* AfnaiNews-Info.plist */,
+				8D1107310486CEB800E47090 /* Afnainews-Info.plist */,
+				8D13E1B8F9B84051B312CCD9 /* CDVNotification.bundle */,
 			);
 			name = Resources;
-			path = "AfnaiNews/Resources";
+			path = "Afnainews/Resources";
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -205,6 +205,7 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				D066EC61763F47309AB7BCB2 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,21 +221,17 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				C8858CAA112043688F1F8455 /* IonicKeyboard.m */,
-				A3080DBBEB8247EAA19662CB /* UIWebViewExtension.m */,
-				1447A0EBD2554641895E80CF /* IonicKeyboard.h */,
-				BF115D1BC58D4197A05D47E8 /* UIWebViewExtension.h */,
-				00194FCD6911488CB219B5F8 /* CDVLogger.m */,
-				F7762949C5C5416EAF7E71CE /* CDVLogger.h */,
-				F9CE0D880F584D02A5798C05 /* CDVDevice.m */,
-				99D15F7ED5984F30A9ADEF29 /* CDVDevice.h */,
-				5DEAA3FAFD1946BCB95D6F7E /* CDVSplashScreen.m */,
-				7886FEE0937F4B49A9844C3B /* CDVViewController+SplashScreen.m */,
-				C4608E7B77BA4F388570B27A /* CDVSplashScreen.h */,
-				7EF9553D5D1F4520BCC33F5E /* CDVViewController+SplashScreen.h */,
+				83319A2DB1F346D4A53AD081 /* CDVDevice.m */,
+				EB6DBE6F69B948C0A06D0769 /* CDVDevice.h */,
+				7FD8D7EB2C36436F9F73490F /* CDVInAppBrowser.m */,
+				C10730DF8BFE438B9BCF11A5 /* CDVInAppBrowser.h */,
+				1BB6C0C460A6477BA7B89DDD /* CDVGlobalization.m */,
+				C27AD6962D6D4F76BEDAD2E3 /* CDVGlobalization.h */,
+				BD5CC4BFF0EC40F1929A0CB7 /* CDVNotification.m */,
+				3044F9F8F463421489FDBEFD /* CDVNotification.h */,
 			);
 			name = Plugins;
-			path = "AfnaiNews/Plugins";
+			path = "Afnainews/Plugins";
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -288,9 +285,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* AfnaiNews */ = {
+		1D6058900D05DD3D006BFB54 /* Afnainews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AfnaiNews" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Afnainews" */;
 			buildPhases = (
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
@@ -302,9 +299,9 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "AfnaiNews";
-			productName = "AfnaiNews";
-			productReference = 1D6058910D05DD3D006BFB54 /* AfnaiNews.app */;
+			name = "Afnainews";
+			productName = "Afnainews";
+			productReference = 1D6058910D05DD3D006BFB54 /* Afnainews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -339,7 +336,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* AfnaiNews */,
+				1D6058900D05DD3D006BFB54 /* Afnainews */,
 			);
 		};
 /* End PBXProject section */
@@ -385,6 +382,7 @@
 				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
 				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				DC7DE99D223F4B999DBF1275 /* CDVNotification.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +401,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			shellScript = "cordova/lib/copy-www-build-step.sh";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -416,12 +414,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				6F5B3BC60D3D4475A6D1AEDB /* IonicKeyboard.m in Sources */,
-				DA245DAB1CCF449189B926CE /* UIWebViewExtension.m in Sources */,
-				9F3E7C21695449538EA99329 /* CDVLogger.m in Sources */,
-				5B7819BC40D94657A9563CE4 /* CDVDevice.m in Sources */,
-				C23384B9548A431DBB8129BA /* CDVSplashScreen.m in Sources */,
-				516AD3FA991740DC82F0DE05 /* CDVViewController+SplashScreen.m in Sources */,
+				C5B03947E58742A79309C908 /* CDVDevice.m in Sources */,
+				D2062FEBE0DF4DFDB593BE01 /* CDVInAppBrowser.m in Sources */,
+				C6BC8D791C2D403E9CB499C6 /* CDVGlobalization.m in Sources */,
+				481623BCFCB2469FB3F2EA55 /* CDVNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,10 +441,10 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AfnaiNews/AfnaiNews-Prefix.pch";
+				GCC_PREFIX_HEADER = "Afnainews/Afnainews-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "AfnaiNews/AfnaiNews-Info.plist";
+				INFOPLIST_FILE = "Afnainews/Afnainews-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -462,7 +458,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "AfnaiNews";
+				PRODUCT_NAME = "Afnainews";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -474,10 +470,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AfnaiNews/AfnaiNews-Prefix.pch";
+				GCC_PREFIX_HEADER = "Afnainews/Afnainews-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "AfnaiNews/AfnaiNews-Info.plist";
+				INFOPLIST_FILE = "Afnainews/Afnainews-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -491,7 +487,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "AfnaiNews";
+				PRODUCT_NAME = "Afnainews";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -586,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AfnaiNews" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Afnainews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,

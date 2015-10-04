@@ -9,19 +9,19 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"IonicKeyboard\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Globalization\"><param name=\"ios-package\" value=\"CDVGlobalization\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -34,26 +34,32 @@
                             "xml": false,
                             "count": 1
                         }
+                    ],
+                    "AudioToolbox.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
                     ]
                 }
             }
         }
     },
     "installed_plugins": {
-        "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
-        },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
         },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
         },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
         }
     },
     "dependent_plugins": {}

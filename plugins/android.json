@@ -9,7 +9,7 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" value=\"com.ionic.keyboard.IonicKeyboard\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
                         {
@@ -17,11 +17,15 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"Globalization\"><param name=\"android-package\" value=\"org.apache.cordova.globalization.Globalization\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -30,20 +34,20 @@
         }
     },
     "installed_plugins": {
-        "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
-        },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
         },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
         },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ionicframework.afnainews516316"
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "io.cordova.myapp2fd8ca"
         }
     },
     "dependent_plugins": {}
